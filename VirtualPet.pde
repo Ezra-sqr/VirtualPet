@@ -24,5 +24,28 @@ fill (0,0,0);
 ellipse (160,256,7,7);
 ellipse (190,256,7,7);
 
+fill (235,0,25);
+ellipse(175,308,9,9);
+
+pushMatrix ();
+translate (137,232);
+rotate (radians(260));
+fill (#2E1B02);
+rect(0,0,70,7);
+popMatrix ();
+
+pushMatrix ();
+translate (208,232);
+rotate (radians(280));
+fill (#2E1B02);
+rect(0,0,70,7);
+popMatrix ();
+
+pushMatrix ();
+translate (132,183);
+rotate (radians(290));
+fill (#2E1B02);
+rect(0,0,20,5);
+popMatrix ();
 }
 
