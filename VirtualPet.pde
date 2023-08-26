@@ -1,4 +1,3 @@
-
 void setup(){
   size (500,500);
 }
@@ -47,5 +46,32 @@ rotate (radians(290));
 fill (#2E1B02);
 rect(0,0,20,5);
 popMatrix ();
-}
 
+pushMatrix ();
+translate (216,184);
+rotate (radians(250));
+fill (#2E1B02);
+rect(0,0,20,5);
+popMatrix ();
+
+pushMatrix ();
+translate (135,210);
+rotate (radians(235));
+fill (#2E1B02);
+rect(0,0,30,5);
+popMatrix ();
+
+pushMatrix ();
+translate (213,210);
+rotate (radians(305));
+fill (#2E1B02);
+rect(0,0,30,5);
+popMatrix ();
+
+pushMatrix ();
+translate (380,274);
+rotate (radians(47));
+fill (#553A10);
+ellipse(0,0,12,24);
+popMatrix ();
+}
